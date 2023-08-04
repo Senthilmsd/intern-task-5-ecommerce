@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Website</title>
+    <link rel="stylesheet" href="index.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <a href="#" class="logo">E-commerce Shop</a>
+            <i class='bx bx-shopping-bag' id="cart-icon"></i>
+            <div class="cart">
+                <h2 class="cart-tittle"> Your cart</h2>
+        <div class="cart-content">
+        
+        </div>
+        <div class="total">
+        <div class="total-tittle">Total</div>
+            <div class="total-price">$0</div>
+            </div>
+            <button type="button " class="btn-buy">Buy Now</button>
+
+            <i class='bx bx-x' id="close-cart"></i>
+               </div>
+            </div>
+    </header>
+    <section class="shop container">
+        <h2 class="section-tittle">Assurance of quality </h2>
+        <div class="shop-content">
+            <!-- <--b1_> -->
+            <div class="product-box">
+                <img src="c:\Users\Lenovo\Downloads\headphones.jpg" alt="" class="product-img1">
+                <h2 class="product-tittle"> EAR phones</h2>
+                <span class="price">372 Rs</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+
+            </div>
+<!-- <---b2-->
+            <div class="product-box">
+                <img src="c:\Users\Lenovo\Downloads\neckband.jpg" alt="" class="product-img1">
+                <h2 class="product-tittle"> Neck band</h2>
+                <span class="price">1200 Rs</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+
+            </div>
+             <!-- <>---b3--> 
+            <div class="product-box">
+                <img src="c:\Users\Lenovo\Downloads\airpods.jpg" alt="" class="product-img1">
+                <h2 class="product-tittle">Airpods</h2>
+                <span class="price">1300 Rs</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+
+            </div>
+             <!-- <>---b4--> 
+            <div class="product-box">
+                <img src="c:\Users\Lenovo\Downloads\4waterbottle.jpg" alt="" class="product-img1">
+                <h2 class="product-tittle">Water Bottle</h2>
+                <span class="price">400 Rs</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+
+            </div>
+             <!-- <>---b5--> 
+            <div class="product-box">
+                <img src="c:\Users\Lenovo\Downloads\travalbag.jpg" alt="" class="product-img1">
+                <h2 class="product-tittle">Travel Bag</h2>
+                <span class="price">800 Rs</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+
+            </div>
+  <!-- <>---b6--> 
+            <div class="product-box">
+                <img src="c:\Users\Lenovo\Downloads\lacharger.jpg" alt="" class="product-img1">
+                <h2 class="product-tittle">laptop Charger</h2>
+                <span class="price">600 Rs</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+
+            </div>
+              <!-- <>---b7--> 
+
+            <div class="product-box">
+                <img src="c:\Users\Lenovo\Downloads\boom.jpg" alt="" class="product-img1">
+                <h2 class="product-tittle">Boom headphones</h2>
+                <span class="price">1200 Rs</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+
+            </div>
+              <!-- <>---b8--> 
+            <div class="product-box">
+                <img src="c:\Users\Lenovo\Downloads\mobilecharger.jpg" alt="" class="product-img1">
+                <h2 class="product-tiitle">Mobile charger</h2>
+                <span class="price">400 Rs</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+
+            </div>
+        </div>
+    </section>
+    <script src="style.js"></script>
+</body>
+</html>
